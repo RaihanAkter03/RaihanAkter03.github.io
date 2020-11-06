@@ -35,6 +35,7 @@ THEN i Presented with share able media links
 4. navigate to contact page , user should able to see contact info of the person to get connected .
 5. user can communicate with person by sending message.
 6. Footer have media sharable links .facebook, tweeter, linkedin & github
+7. if you send a message it will send message to owner of the application.
 
 ```
 
