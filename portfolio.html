@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="./style.css">
+<title>Updated Portfolio</title>
+
+<body>
+    <!-- Sidebar with image -->
+    <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+        <div class="bgimg"></div>
+    </nav>
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2"
+        id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+            style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="./index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+            <a href="./portfolio.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Portfolio</a>
+            <a href="./about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+            <a href="./contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Contact</a>
+        </div>
+    </nav>
+        <!-- Page Content -->
+        <div class="w3-main w3-padding-large" style="margin-left:40%">
+            <!-- Menu icon to open sidebar -->
+            <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;"
+                onclick="openNav()"><i class="fa fa-bars"></i>
+            </span>
+            <!-- Portfolio Section -->
+            <div class="w3-padding-32 w3-content" id="portfolio">
+                <h2 class="w3-text-grey">My Portfolio</h2>
+                <hr class="w3-opacity">
+
+                <!-- Grid for photos -->
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half">
+                        <a href="https://timothykemp.dev/aircare" target="_blank"><img src="./assets/air.JPG" class="images" style="width:100%"></a>
+                        <a href="https://raihanakter03.github.io/Web-APIs-Code-Quiz/"><img src="./assets/codequiz.JPG" class="images" style="width:100%;"></a>
+                        <a href="https://raihanakter03.github.io/Server-Side-APIs-Weather-Dashboard"><img src="./assets/weather.JPG"
+                                                        class="images" style="width:100%"></a>
+                       
+                    </div>
+
+                    <div class="w3-half">
+                        <a href="https://raihanakter03.github.io/Password-Generator/"><img src="./assets/Password.JPG" class="images" style="width:100%"></a>
+
+                        <a href="https://raihanakter03.github.io/Third-Party-APIs-Work-Day-Scheduler/"><img src="./assets/dayScheduler.GIF"
+                                class="images" style="width:100%"></a>
+                        
+                    </div>
+                    <!-- End photo grid -->
+                </div>
+                <!-- End Portfolio Section -->
+            </div>            
+            <!-- END PAGE CONTENT -->
+        </div>
+        <div>
+            <footer id="footer" class="w3-container w3-light-grey w3-xlarge">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </footer>
+        </div>
+
+<script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
