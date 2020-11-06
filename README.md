@@ -38,8 +38,7 @@ THEN i Presented with share able media links
 
 ```
 
-![Air Care Wire Frame Image](./assets/images/air_care_wire_frame.svg)
-![assets](./assets/home.jpg)
+![assets](./assets/home.gif)
 ![assets](./assets/portfolio.gif)
 ![assets](./assets/about.gif)
 ![assets](./assets/contact.gif)
