@@ -37,7 +37,9 @@ THEN i Presented with share able media links
 6. Footer have media sharable links .facebook, tweeter, linkedin & github
 
 ```
-![assets](./assets/home.gif)
+
+![Air Care Wire Frame Image](./assets/images/air_care_wire_frame.svg)
+![assets](./assets/home.jpg)
 ![assets](./assets/portfolio.gif)
 ![assets](./assets/about.gif)
 ![assets](./assets/contact.gif)
