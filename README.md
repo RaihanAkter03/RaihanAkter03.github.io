@@ -31,7 +31,7 @@ THEN i Presented with share able media links
 ```
 1. Navigate to the provided URL , User should able to see person profile along with person photo and short description of profession .
 2. Navigate portfolio page from right corner navigation button , user should bale to see person's work along with there url.
-3. navigate to the about page , user should able to see person bio of the profession along with skill set.
+3. navigate to the about page , user should able to see person bio of the profession along with skill set with the github repository for some of the projects.
 4. navigate to contact page , user should able to see contact info of the person to get connected .
 5. user can communicate with person by sending message.
 6. Footer have media sharable links .facebook, tweeter, linkedin & github
