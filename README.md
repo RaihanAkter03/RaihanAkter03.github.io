@@ -38,8 +38,8 @@ THEN i Presented with share able media links
 7. if you send a message it will send message to owner of the application.
 
 ```
+![Deployed HOme](assets/home.GIF)
+![Deployed Portfolio](assets/portfolio.GIF)
+![Deployed About](assets/about.GIF)
+![Deployed COntact](assets/contact.GIF)
 
-![assets](./assets/home.gif)
-![assets](./assets/portfolio.gif)
-![assets](./assets/about.gif)
-![assets](./assets/contact.gif)
